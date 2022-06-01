@@ -7,6 +7,8 @@ body {
   background-image: url("../order-summary-component-main/images/pattern-background-desktop.svg");
   background-size: cover;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-color: rgb(208, 238, 228);
 }
 
 .container {
@@ -22,7 +24,7 @@ body {
 .annual-plan-container,
 .payment-btn,
 .img-div {
-  border-radius: 10%;
+  border-radius: 1rem;
 }
 .img-div {
   border-bottom-left-radius: 0;
